@@ -4,7 +4,7 @@ import javax.swing.text.AttributeSet.ColorAttribute;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-class Complaint extends JFrame implements ActionListener{
+class Complaint extends JFrame{
     private Object btn1;
     private Object btn2;
     private Object btn3;
