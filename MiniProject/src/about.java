@@ -24,7 +24,7 @@ class about extends JFrame{
             c.add(p1);*/
             
             JButton btn1= new JButton("PROFILE");
-            btn1.setBounds(10,5,100,20);
+            btn1.setBounds(10,20,100,20);
             frame.add(btn1);
             btn1.setForeground(Color.BLUE);
             btn1.addActionListener(new ActionListener(){
