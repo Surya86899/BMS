@@ -68,7 +68,7 @@ class about extends JFrame{
                 }
             });*/
             JButton btn6=new JButton("ABOUT US");
-            btn6.setBounds(350,10,100,20);
+            btn6.setBounds(310,10,100,20);
             frame.add(btn6);
             btn6.setForeground(Color.BLUE);
             /*btn6.addActionListener(new ActionListener(){
