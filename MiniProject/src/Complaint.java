@@ -23,9 +23,9 @@ class Complaint extends JFrame{
             p1.setBounds(0,0,200,400);
             p1.setBackground(Color.BLUE);
             p1.setLayout(null);
+            c.add(p1);
 
             taskbar tas = new taskbar(p1);
-            c.add(p1);
 
             String[] values = {"Problems","1. Neighbour Problem","2. Cleanliness Problem","3. Electricity Problem","4. Water Problem","5. Others"};
             JComboBox c1 = new JComboBox(values);
@@ -40,7 +40,7 @@ class Complaint extends JFrame{
             t1.setBounds(300,200,200,80);
             c.add(t1);
 
-           ImageIcon Im = new ImageIcon("C:\\Users\\Surya\\Desktop\\MyVs\\MiniProject\\img\\logom.png");
+           ImageIcon Im = new ImageIcon("MiniProject\\img\\logom.png");
            JLabel logo = new JLabel();
            frame.add(logo);
            logo.setIcon(Im);

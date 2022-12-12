@@ -21,17 +21,9 @@ public class Welcomepage extends Frame{
         bt.setFont(new Font("Corbel",Font.PLAIN,30));
         bt.setForeground(Color.BLUE);
         c.add(bt);
-        MouseMotionListener doScrollRectToVisible = new MouseMotionAdapter() {
-            public void mouseDragged(MouseEvent e) {
-               Rectangle r = new Rectangle(e.getX(), e.getY(), 1, 1);
-               ((JPanel)e.getSource()).scrollRectToVisible(r);
-           }
-        };
-        f.addMouseMotionListener(doScrollRectToVisible);
         bt.addActionListener(new ActionListener(){
             @Override
             public void actionPerformed(ActionEvent e) {
-                // TODO Auto-generated method stub
                 LoginForm1 Log = new  LoginForm1();
             }
         });
@@ -47,7 +39,7 @@ public class Welcomepage extends Frame{
             }
         });
 
-        ImageIcon Img = new ImageIcon("C:\\Users\\Surya\\Desktop\\MyVs\\MiniProject\\img\\BMS.jpg");
+        ImageIcon Img = new ImageIcon("MiniProject\\img\\BMS.jpg");
         l1 = new JLabel("Profile",Img,JLabel.CENTER);
         l1.setBounds(0, 0, 700, 400);
         l1.setIcon(Img);

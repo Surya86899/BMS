@@ -17,59 +17,8 @@ class Maintenance{
             p1.setBackground(Color.BLUE);
             p1.setLayout(null);
             c.add(p1);
-            
-            JButton btn1= new JButton("PROFILE");
-            btn1.setBounds(40,65,120,20);
-            p1.add(btn1);
-            btn1.addActionListener(new ActionListener(){
-                public void actionPerformed(ActionEvent e){
-                    Profile Pro = new Profile();
-                    btn1.setForeground(Color.BLUE);
-                }
-            });
-            JButton btn2=new JButton("MAINTENANCE");
-            btn2.setBounds(40,115,120,20);
-            p1.add(btn2);
-            btn2.setForeground(Color.BLUE);
-            /*btn2.addActionListener(new ActionListener(){
-                public void actionPerformed(ActionEvent e){
-                    Maintenance Maint = new Maintenance();
-                }
-            });*/
-            JButton btn3=new JButton("COMPLAINTS");
-            btn3.setBounds(40,165,120,20);
-            p1.add(btn3);
-            btn3.addActionListener(new ActionListener(){
-                public void actionPerformed(ActionEvent a){
-                    Complaint comp = new Complaint();
-                    btn3.setForeground(Color.BLUE);
-                }
-            });
-            JButton btn4=new JButton("EVENTS");
-            btn4.setBounds(40,215,120,20);
-            p1.add(btn4);
-            btn4.addActionListener(new ActionListener(){
-                public void actionPerformed(ActionEvent s){
-                    Events Even = new Events();
-                    btn4.setForeground(Color.BLUE);
-                }
-            });
-            JButton btn5=new JButton("FEEDBACK");
-            btn5.setBounds(40,265,120,20);
-            p1.add(btn5);
-            btn5.addActionListener(new ActionListener(){
-                public void actionPerformed(ActionEvent e){
-                    btn1.setForeground(Color.BLUE);
-                }
-            });
-            JButton btn6=new JButton("ABOUT US");
-            btn6.setBounds(40,315,120,20);
-            p1.add(btn6);
-            btn6.addActionListener(new ActionListener(){
-                public void actionPerformed(ActionEvent e){
-                    about ab = new about();
-                }
-            });
+
+            taskbar tas = new taskbar(p1);
 
             JTextField t1=new JTextField("BUILDING:");
            t1.setBounds(250,100,100,20);
@@ -103,7 +52,7 @@ class Maintenance{
            c.add(btn);
            btn.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent ae){
-           ImageIcon Im = new ImageIcon("C:\\Users\\Surya\\Desktop\\MyVs\\MiniProject\\img\\QRF.jpg");
+           ImageIcon Im = new ImageIcon("MiniProject\\img\\QRF.jpg");
            JLabel qr = new JLabel();
            qr.setBounds(400,10,100,100);
            frame.add(qr);
@@ -119,7 +68,7 @@ class Maintenance{
            c.add(btn7);
            btn7.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent ae){
-           ImageIcon Im = new ImageIcon("C:\\Users\\Surya\\Desktop\\MyVs\\MiniProject\\img\\QRF.jpg");
+           ImageIcon Im = new ImageIcon("MiniProject\\img\\QRF.jpg");
            JLabel qr = new JLabel();
            frame.add(qr);
            qr.setIcon(Im);
@@ -134,13 +83,7 @@ class Maintenance{
            btn8.setForeground(Color.WHITE);
            c.add(btn8);
 
-           ImageIcon Img = new ImageIcon("C:\\Users\\Surya\\Desktop\\MyVs\\MiniProject\\img\\profile.png");
-           JLabel profile = new JLabel();
-           p1.add(profile);
-           profile.setIcon(Img);
-           profile.setBounds(75,10,50,50);
-
-           ImageIcon Im = new ImageIcon("C:\\Users\\Surya\\Desktop\\MyVs\\MiniProject\\img\\logom.png");
+           ImageIcon Im = new ImageIcon("MiniProject\\img\\logom.png");
            JLabel logo = new JLabel();
            frame.add(logo);
            logo.setIcon(Im);
@@ -149,7 +92,3 @@ class Maintenance{
            frame.setVisible(true);
     }
 }
-      
-           
-
-

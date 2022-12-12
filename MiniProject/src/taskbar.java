@@ -3,6 +3,13 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 public class taskbar {
+    public JButton btn1;
+    public JButton btn2;
+    public JButton btn3;
+    public JButton btn4;
+    public JButton btn5;
+    public JButton btn6;
+
     taskbar(JPanel p1){
             JButton btn1= new JButton("PROFILE");
             btn1.setBounds(40,65,120,20);
@@ -25,10 +32,10 @@ public class taskbar {
             JButton btn3=new JButton("COMPLAINTS");
             btn3.setBounds(40,165,120,20);
             p1.add(btn3);
-            btn3.setForeground(Color.BLUE);
             btn3.addActionListener(new ActionListener(){
                 public void actionPerformed(ActionEvent a){
                     Complaint comp = new Complaint();
+                    btn3.setForeground(Color.BLUE);
                 }
             });
             JButton btn4=new JButton("EVENTS");
@@ -56,8 +63,8 @@ public class taskbar {
                     about ab = new about();
                 }
             });
-            
-            ImageIcon Img = new ImageIcon("C:\\Users\\Surya\\Desktop\\MyVs\\MiniProject\\img\\profile.png");
+
+            ImageIcon Img = new ImageIcon("MiniProject\\img\\profile.png");
             JLabel profile = new JLabel();
             p1.add(profile);
             profile.setIcon(Img);

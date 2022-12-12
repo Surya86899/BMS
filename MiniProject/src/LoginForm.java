@@ -37,7 +37,7 @@ class LoginForm1{
                 }
             });
 
-            ImageIcon Img = new ImageIcon("C:\\Users\\Surya\\Desktop\\img\\LO.jpeg");
+            ImageIcon Img = new ImageIcon("MiniProject\\img\\LO.jpeg");
             JLabel b1 = new JLabel("LOGIN",Img,JLabel.CENTER);
             b1.setBounds(0, 0, 700, 400);
             b1.setIcon(Img);

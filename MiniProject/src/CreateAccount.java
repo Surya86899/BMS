@@ -2,7 +2,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.*;
 
 class CreateAccount{
     JTextField t1,t2,t3,t4;
@@ -80,7 +79,7 @@ class CreateAccount{
                 }   
             });
 
-            ImageIcon Img = new ImageIcon("C:\\Users\\Surya\\Desktop\\MyVs\\MiniProject\\img\\CR.jpg");
+            ImageIcon Img = new ImageIcon("CMiniProject\\img\\CR.jpg");
             JLabel b1 = new JLabel("",Img,JLabel.CENTER);
             b1.setBounds(0, 0, 700, 400);
             b1.setIcon(Img);
