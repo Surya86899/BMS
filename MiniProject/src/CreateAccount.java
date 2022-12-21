@@ -79,7 +79,7 @@ class CreateAccount{
                 }   
             });
 
-            ImageIcon Img = new ImageIcon("CMiniProject\\img\\CR.jpg");
+            ImageIcon Img = new ImageIcon("BMS\\MiniProject\\img\\CR.jpg");
             JLabel b1 = new JLabel("",Img,JLabel.CENTER);
             b1.setBounds(0, 0, 700, 400);
             b1.setIcon(Img);

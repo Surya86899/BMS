@@ -52,7 +52,7 @@ class Maintenance{
            c.add(btn);
            btn.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent ae){
-           ImageIcon Im = new ImageIcon("MiniProject\\img\\QRF.jpg");
+           ImageIcon Im = new ImageIcon("BMS\\MiniProject\\img\\QRF.jpg");
            JLabel qr = new JLabel();
            qr.setBounds(400,10,100,100);
            frame.add(qr);
@@ -68,7 +68,7 @@ class Maintenance{
            c.add(btn7);
            btn7.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent ae){
-           ImageIcon Im = new ImageIcon("MiniProject\\img\\QRF.jpg");
+           ImageIcon Im = new ImageIcon("BMS\\MiniProject\\img\\QRF.jpg");
            JLabel qr = new JLabel();
            frame.add(qr);
            qr.setIcon(Im);
@@ -83,7 +83,7 @@ class Maintenance{
            btn8.setForeground(Color.WHITE);
            c.add(btn8);
 
-           ImageIcon Im = new ImageIcon("MiniProject\\img\\logom.png");
+           ImageIcon Im = new ImageIcon("BMS\\MiniProject\\img\\logom.png");
            JLabel logo = new JLabel();
            frame.add(logo);
            logo.setIcon(Im);

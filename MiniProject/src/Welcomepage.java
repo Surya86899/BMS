@@ -39,7 +39,7 @@ public class Welcomepage extends Frame{
             }
         });
 
-        ImageIcon Img = new ImageIcon("MiniProject\\img\\BMS.jpg");
+        ImageIcon Img = new ImageIcon("BMS\\MiniProject\\img\\BMS.jpg");
         l1 = new JLabel("Profile",Img,JLabel.CENTER);
         l1.setBounds(0, 0, 700, 400);
         l1.setIcon(Img);

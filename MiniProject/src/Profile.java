@@ -60,7 +60,7 @@ class Profile extends JFrame{
 			c.add(l4);
 			c.add(l5);
 
-           ImageIcon Img = new ImageIcon("MiniProject\\img\\profile.png");
+           ImageIcon Img = new ImageIcon("BMS\\MiniProject\\img\\profile.png");
            JLabel profile = new JLabel();
            p1.add(profile);
            profile.setIcon(Img);
@@ -73,7 +73,7 @@ class Profile extends JFrame{
            profile1.setBounds(380,20,50,50);
            frame.setVisible(true);
 
-           ImageIcon Im = new ImageIcon("MiniProject\\img\\logom.png");
+           ImageIcon Im = new ImageIcon("BMS\\MiniProject\\img\\logom.png");
            JLabel logo = new JLabel();
            frame.add(logo);
            logo.setIcon(Im);

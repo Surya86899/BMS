@@ -30,7 +30,7 @@ class about extends JFrame{
             frame.add(btn6);
             btn6.setForeground(Color.BLUE);
 
-            ImageIcon I = new ImageIcon("C:\\Users\\Surya\\Desktop\\MyVs\\MiniProject\\img\\aboutfinal.jpg");
+            ImageIcon I = new ImageIcon("BMS\\MiniProject\\img\\aboutfinal.jpg");
             JLabel j1 = new JLabel(I, JLabel.CENTER);
             j1.setBounds(0,0,700,400);
             frame.add(j1);

@@ -31,7 +31,7 @@ class Events{
             c1.addActionListener(new ActionListener(){
                 public void actionPerformed(ActionEvent e){
                     if(e.getSource().equals(c1)){
-                    ImageIcon Im = new ImageIcon("MiniProject\\img\\ganesh.jpg");
+                    ImageIcon Im = new ImageIcon("BMS\\MiniProject\\img\\ganesh.jpg");
                     JLabel qr = new JLabel();
                     qr.setBounds(400,175,100,100);
                     frame.add(qr);
@@ -49,7 +49,7 @@ class Events{
             c2.setBounds(450,100,175,30);
             c.add(c2);
 
-           ImageIcon Im = new ImageIcon("MiniProject\\img\\logom.png");
+           ImageIcon Im = new ImageIcon("BMS\\MiniProject\\img\\logom.png");
            JLabel logo = new JLabel();
            frame.add(logo);
            logo.setIcon(Im);

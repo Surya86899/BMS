@@ -3,11 +3,6 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 class Complaint extends JFrame{
-    private Object btn1;
-    private Object btn2;
-    private Object btn3;
-    private Object btn4;
-
     public Complaint(){
             JFrame frame=new JFrame();
             
@@ -40,7 +35,7 @@ class Complaint extends JFrame{
             t1.setBounds(300,200,200,80);
             c.add(t1);
 
-           ImageIcon Im = new ImageIcon("MiniProject\\img\\logom.png");
+           ImageIcon Im = new ImageIcon("BMS\\MiniProject\\img\\logom.png");
            JLabel logo = new JLabel();
            frame.add(logo);
            logo.setIcon(Im);
