@@ -8,4 +8,3 @@ This at times could be very hectic
 # Solution 
 This website is a 1 stop solution for all Building Management related needs.
 Frontend Code is shared in this repository.
-Backend of the code is yet to be developed.
