@@ -3,13 +3,10 @@ public class Main {
         Welcomepage we = new Welcomepage();
         //LoginForm1 Log = new  LoginForm1();
         //CreateAccount Cr = new CreateAccount();
-        //BackgroundImageJFrame Bg = new BackgroundImageJFrame();
+        //Profile Pro = new Profile();
         //Maintenance Maint = new Maintenance();
         //Complaint comp = new Complaint();
         //Events Even = new Events();
-        //Profile Pro = new Profile();
-        //Welcomepage Wel = new Welcomepage();
-        //JDBC Jaa = new JDBC();
         //about ab = new about();    
     }
 }

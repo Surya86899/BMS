@@ -64,7 +64,7 @@ public class taskbar {
                 }
             });
 
-            ImageIcon Img = new ImageIcon("MiniProject\\img\\profile.png");
+            ImageIcon Img = new ImageIcon("BMS\\MiniProject\\img\\profile.png");
             JLabel profile = new JLabel();
             p1.add(profile);
             profile.setIcon(Img);
